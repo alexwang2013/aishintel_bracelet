@@ -149,7 +149,7 @@ io.on('connection', function (socket) {
 
 */
 
-var socket = require('socket.io-client')('http://192.168.111.100:3000');
+var socket = require('socket.io-client')('http://192.168.11.3:3000');
   socket.on('connect', function(){
     socket.on('event', function(data){});
     socket.on('disconnect', function(){});

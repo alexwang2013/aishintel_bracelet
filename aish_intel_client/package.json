@@ -7,7 +7,15 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-      "socket.io":"latest",
-      "socket.io-client":"latest"
+      "debug":"0.7.4",
+      "component-emitter":"1.1.2",
+      "isarray":"0.0.1",
+      "ws":"0.4.31",
+      "engine.io-parser":"1.1.0",
+      "better-assert":"~1.0.0",
+      "socket.io-parser":"2.2.2",
+      "engine.io-parser":"1.1.0",
+      "socket.io":"1.1.0",
+      "socket.io-client":"1.1.0"
   }
 }
