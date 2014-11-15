@@ -149,7 +149,7 @@ io.on('connection', function (socket) {
 
 */
 
-var socket = require('socket.io-client')('http://www.tinymid.com:9031');
+var socket = require('socket.io-client')('http://yourdomain:port');
   socket.on('connect', function(){
     socket.on('event', function(data){});
     socket.on('disconnect', function(){});
